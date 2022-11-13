@@ -1,5 +1,5 @@
 ---
-title : Deploying Elastic with Terraform - Part 1
+title : Deploying Elastic with Terraform: Part 1
 feed: show
 date : 11-12-2022
 ---
