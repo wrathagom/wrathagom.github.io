@@ -1,10 +1,10 @@
 ---
-title : Deploying Elastic with Terraform: Part 1
+title : First Elastic Cluster with Terraform
 feed: show
 date : 11-12-2022
 ---
 
-# Deploying Elastic with Terraform - Part 1
+# First Elastic Cluster with Terraform
 
 For my day job with Elastic, I have had several customers deploying their clusters with Terraform. I have no experience using Terraform and so I thought it would be worth some investigation.
 
