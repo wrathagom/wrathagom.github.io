@@ -2,6 +2,7 @@
 title : Elastic
 feed: hide
 date : 1-1-2022
+permalink: /tags/terraform
 ---
 I started working for Elastic in 2021, but I've been a user of Elasticsearch for a really long time. I've built applications on top of Elastic as well as used Elastic as an observability tool.
 
