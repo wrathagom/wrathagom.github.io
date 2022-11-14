@@ -4,8 +4,7 @@ feed: show
 date : 12-11-2022
 ---
 
-Tags: [[Elastic]]
-
+**Tags: [[Elastic]], [[Terraform]], [[Programming]]**
 
 For my day job with Elastic, I have had several customers deploying their clusters with Terraform. I have no experience using Terraform and so I thought it would be worth some investigation.
 
