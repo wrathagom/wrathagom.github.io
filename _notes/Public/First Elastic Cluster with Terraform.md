@@ -50,4 +50,7 @@ resource "ec_deployment" "custom-deployment-id" {
 }
 ```
 
-The first block is mostly used for configuring Terraform itself. The current version of TF (as of Nov 12th, 2022) is 1.3.4, which is what I installed.
+The first block, also known as the `terraform block` is used for configuring Terraform itself. The current version of TF (as of Nov 12th, 2022) is 1.3.4, which is what I installed.If you want to know the latest current version it is shown at the top of their [downloads page](https://developer.hashicorp.com/terraform/downloads).
+
+In the `required_providers` block I specificy that I need the [Elastic Cloud provider](https://registry.terraform.io/providers/elastic/ec/latest/docs). There is a full list of providers available [here](https://registry.terraform.io/browse/providers). I am excited to play with some of the others!
+
