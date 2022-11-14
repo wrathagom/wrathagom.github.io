@@ -4,8 +4,6 @@ feed: show
 date : 12-11-2022
 ---
 
-# First Elastic Cluster with Terraform
-
 For my day job with Elastic, I have had several customers deploying their clusters with Terraform. I have no experience using Terraform and so I thought it would be worth some investigation.
 
 I started with [this post](https://www.elastic.co/blog/using-terraform-with-elastic-cloud) from the Elastic blog, which was an excellent starting point, but it didn't give much history on Terraform or an intro to it. It probably assumed people going there have some familairity with TF, which I don't 😅. Indeed I didn't even have Terraform installed!
@@ -14,7 +12,7 @@ I started with [this post](https://www.elastic.co/blog/using-terraform-with-elas
 
 I'm on a Mac, so I used brew to install Terraform following the [official docs](https://developer.hashicorp.com/terraform/downloads). Two commands and I had everything installed as needed:
 
-```bash
+```shell
 brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
 ```
