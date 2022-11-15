@@ -91,8 +91,8 @@ Plan: 2 to add, 0 to change, 0 to destroy.
 
 And applying the config indeed creates two clusters, and the Terraform cluster is connected to the monitoring cluster for logs and metrics:
 
-![[Screen Shot 2022-11-15 at 9.35.51 AM.png]]
-![[Screen Shot 2022-11-15 at 9.37.10 AM.png]]
+![New Clusters Showing in Elastic Cloud Console](https://raw.githubusercontent.com/wrathagom/wrathagom.github.io/927d5dbc974ca93a92b301c12a593eed4a7540e5/assets/img/blogImages/Screen%20Shot%202022-11-15%20at%209.35.51%20AM.png)
+![Monitoring Logs Being Shipped to Monitoring Cluster](https://github.com/wrathagom/wrathagom.github.io/blob/927d5dbc974ca93a92b301c12a593eed4a7540e5/assets/img/blogImages/Screen%20Shot%202022-11-15%20at%209.37.10%20AM.png?raw=true)
 
 ## 🚨 Tips and Tricks
 Working with Topology blocks can be a bit interesting. The team behind the Terraform provider is working on some big changes, but for now the ***topology blocks have to be in alphabetical order*** of `id`. That is `hot_content` has to come before `ml`.
@@ -101,3 +101,7 @@ Additionally, just removing a toplogy block and re-applying via terraform, wont 
 
 
 **Tags: [[Elastic]], [[Terraform]], [[Programming]]**
+
+Does this work?
+
+![Testing](Images/true.png)
