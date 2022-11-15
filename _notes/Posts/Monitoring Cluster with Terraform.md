@@ -91,7 +91,8 @@ Plan: 2 to add, 0 to change, 0 to destroy.
 
 And applying the config indeed creates two clusters, and the Terraform cluster is connected to the monitoring cluster for logs and metrics:
 
-![[Screen Shot 2022-11-15 at 9.35.51 AM.png|Elastic Cloud Showing new Clusters.]]![[Screen Shot 2022-11-15 at 9.37.10 AM.png|Elastic Cloud Showing Monitoring Deployment]]
+![[Screen Shot 2022-11-15 at 9.35.51 AM.png]]
+![[Screen Shot 2022-11-15 at 9.37.10 AM.png]]
 
 ## 🚨 Tips and Tricks
 Working with Topology blocks can be a bit interesting. The team behind the Terraform provider is working on some big changes, but for now the ***topology blocks have to be in alphabetical order*** of `id`. That is `hot_content` has to come before `ml`.
