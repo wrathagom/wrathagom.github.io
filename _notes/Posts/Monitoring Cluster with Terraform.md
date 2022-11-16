@@ -101,7 +101,3 @@ Additionally, just removing a toplogy block and re-applying via terraform, wont 
 
 
 **Tags: [[Elastic]], [[Terraform]], [[Programming]]**
-
-Does this work?
-
-![Testing](Images/true.png)
