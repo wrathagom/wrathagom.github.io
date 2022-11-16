@@ -16,5 +16,26 @@ I started off trying to send the data to a Lambda and then a tiny EC2 instance, 
 
 But I really wanted to push the data into a Node-RED flow so that I can send it to Elasticsearch and a few other places.
 
-I tried to find a iptables of ssh solution that could work, but ended up installing tinyproxy on a Raspberry Pi that I have running something else in the house and using it to forward the requests.
+I tried to find a iptables or ssh solution that could work, but ended up installing tinyproxy on a Raspberry Pi that I have running somewhere else in the house and using it to forward the requests.
 
+Here is the tinyproxy config that I ended up with:
+
+```
+Port 3000
+Listen 0.0.0.0
+Timeout 600
+Allow 192.168.86.24
+MaxClients 5
+StartServers 1
+ConnectPort 80
+ConnectPort 1880
+ReversePath "/" "http://my-node-red-url:3000/aw/"
+ReverseOnly Yes
+ReverseMagic Yes
+```
+
+It's all clearnet, no sensitive information so i wasn't too worried about SSL. Breaking down what I think the above does:
+
+
+
+**Tags: [[WIP]], [[Programming]]**
