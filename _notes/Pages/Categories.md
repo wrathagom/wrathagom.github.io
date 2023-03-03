@@ -9,5 +9,4 @@ If you haven't noticed yet, I have many different subject that I like to talk ab
 
 I hope you find one that interests you.
 
-## Categories
  - [[Elastic]]
