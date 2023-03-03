@@ -1,6 +1,7 @@
 ---
-title: Collections
+title: Categories
 feed: hide
+permalink: /categories
 date : 01-01-2021
 ---
 
