@@ -10,7 +10,7 @@ title: Blog
     <a href="{{site.url}}{{site.baseurl}}{{post.url}}">
       <h3>{{post.title}}</h3>
     </a>
-    <i>posted on {{ post.date | date: "%-d %b %Y" }}</i>
+    <i>posted on {{ post.date | date: "%-d %b %Y" }} with tags {% for category in post.categories %}#{{category}}{% endfor %}</i>
     <p>
       {% if post.excerpt %}
         {{ post.excerpt }}
@@ -18,10 +18,5 @@ title: Blog
         {{ post.content }}
       {% endif %}
     </p>
-    <i>tags: 
-    {% for category in post.categories %}
-      #{{category}}
-    {% endfor %}
-    </i>
   </div>
 {% endfor %}
