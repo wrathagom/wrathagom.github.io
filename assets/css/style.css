@@ -134,11 +134,19 @@ a:hover	{
 		content: "#";
 		color: darkred;
 	}
+	h2::before {
+		content: "#";
+		color: darkred;
+	}
 	h2 {
 		font-size: 3em;
 	}
 
 	h3:before {
+		content: "#";
+		color: darkred;
+	}
+	h3::before {
 		content: "#";
 		color: darkred;
 	}
