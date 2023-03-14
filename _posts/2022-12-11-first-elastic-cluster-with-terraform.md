@@ -2,12 +2,14 @@
 layout: post
 title:  First Elastic Cluster with Terraform
 date:   2022-12-11
-categories: Elastic
+categories: Elastic Terraform Programming
 comments: false
 ---
 
 
 For my day job with Elastic, I have had several customers deploying their clusters with Terraform. I have no experience using Terraform and so I thought it would be worth some investigation.
+
+<!--more-->
 
 I started with [this post](https://www.elastic.co/blog/using-terraform-with-elastic-cloud) from the Elastic blog, which was an excellent starting point, but it didn't give much history on Terraform or an intro to it. It probably assumed people going there have some familairity with TF, which I don't 😅. Indeed I didn't even have Terraform installed!
 
@@ -133,5 +135,3 @@ With that we've got a cluster and we're connected to it!
 If you're just following along to learn some Terraform like me, you can quickly tear down the cluster by running `terraform destroy`.
 
 More to come as I explore this topic further!
-
-**Tags: [[Elastic]], [[Terraform]], [[Programming]]**
