@@ -13,7 +13,7 @@ title: Blog
     <i>posted on {{ post.date | date: "%-d %b %Y" }} with tags {% for category in post.categories %}#{{category}} {% endfor %}</i>
     <p>
       {% if post.excerpt %}
-        {{ post.excerpt }} <a href="{{site.url}}{{site.baseurl}}{{post.url}}">-=Read More=-</a>
+        {{ post.excerpt }}
       {% else %}
         {{ post.content }}
       {% endif %}

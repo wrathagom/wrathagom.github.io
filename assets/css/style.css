@@ -110,22 +110,26 @@ a:hover	{
 }
 
 h2:before {
-	content: "#";
+	content: ".";
 	color: darkred;
 }
 
 h2::before {
-	content: "#";
+	content: ".";
 	color: darkred;
 }
 
+h3 {
+	border-bottom: 2px solid darkred;
+}
+
 h3:before {
-	content: "#";
+	content: ".";
 	color: darkred;
 }
 
 h3::before {
-	content: "#";
+	content: ".";
 	color: darkred;
 }
 
