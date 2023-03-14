@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "First Elastic Cluster with Terraform"
-date:   2022-12-11
+date:   2022-11-12
 category: Elastic
 tags:
   - terraform
