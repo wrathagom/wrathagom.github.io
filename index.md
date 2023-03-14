@@ -8,7 +8,7 @@ title: Home
 
 Hey, my name's Caleb. Thanks for taking the time to track me down!
 
-<img src="{{site.url}}{{site.baseurl}}/assets/images/main.jpg"></img>
+<!-- <img src="{{site.url}}{{site.baseurl}}/assets/images/main.jpg" /> -->
 
 I'm a Mechanical Engineer turned Data Analyst turned Data Scientist turned Sales Engineer. I know, quite the journey! I'm currently employed by Elastic, the company behind Elasticsearch. As I explore Elastic I try to document some of my journey.
 
