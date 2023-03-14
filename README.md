@@ -1,36 +1,67 @@
-# Jekyll Garden v 0.4!
-![Slide 4_3 - 1 (1)](https://user-images.githubusercontent.com/1788677/169704768-65c32d93-7884-47fa-b98c-bc8329acc6a7.png)
+# Minimalist
 
+[![Build Status](https://travis-ci.org/Trybnetic/minimalist.svg?branch=master)](https://travis-ci.org/Trybnetic/minimalist)
+[![License](https://img.shields.io/github/license/Trybnetic/minimalist.svg)](https://github.com/Trybnetic/minimalist/blob/master/LICENSE.txt)  
 
-Jekyll Garden theme lets you publish your [Obsidian](https://obsidian.md/) vault (or a subset of it) as a Jekyll static website. The theme is markdown and Obsidian setup friendly. You can use your own server or Github page to set up your SSG. Check out the demo.
+Minimalist is a simple and light weighted [jekyll](http://jekyllrb.com/) theme. It focuses on a minimalistic design but still providing all functionality for a personal blog.
 
-## Documents and links
--  [Demo website](https://jekyll-garden.github.io/)
--  [Personal Website](https://hiran.in/)
--  [Feature List](https://jekyll-garden.github.io/post/features)
--  [How to Setup](https://jekyll-garden.github.io/post/how-to)
-
-## Credits & Thanks
--  See [Credits page](https://jekyll-garden.github.io/credits)
-
-## Contribution
-
-To set up your environment to develop this theme, run `bundle install` after cloning this repository in your local machine.
-
-Your theme is set up just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. `_notes` contain all atomic notes. If you want to use this for blog, add posts inside `_posts` folder, following standard Jekyll frontamtter.
-
-### Hosting in a Docker Container
-For hosting on your local network, inside a docker container, install `docker` and `docker-compose` and run,
-```Terminal
-$ docker-compose up -d
+## Installation
+To install Open Recipes you have to install [jekyll](https://jekyllrb.com). After successfully installing jekyll you have to clone this repository to your computer:
 ```
-> **Note**:-
-> 
-> This container is built upon on alpine based ruby image. There's an official Jekyll image available in docker hub which only support `amd64` images. You can opt to use that if you are running the container on an 64bit PC. If you want to run this on an ARM based system like Raspberry Pi, this would be a better option.
->
-> The directories which will be frequently modified, are mapped as local volumes so that any changes made to those will be immediately picked up by the server and built. If you fancy changing content in other folders regularly, feel free to add them to the `volumes` section in `docker-compose.yml` before deploying.
+git clone https://github.com/Trybnetic/minimalist.git
+```
+Then switch into the directory and start jekyll:
+```
+cd minimalist
+bundle exec jekyll serve
+```
+The last command starts a webserver on your local machine. Now you should have a copy of the site running at `http://127.0.0.1:4000/`. Open this url with your webbrowser and explore the site.  
+By changing some of the files (except of the `config.yml`) the changes will be displayed immediately.
 
+## Usage
+After you successfully installed the theme on your computer you can add additional blog posts by creating new files in the `_posts` directory. The new files have to follow the name convention `year-month-day-title.md`.
+
+
+## Post structure
+**Example:**
+```
+---
+layout: post
+title:  "Lorem ipsum"
+date:   2017-09-06 01:03:29 +0200
+categories: lorem ipsum
+---
+
+Eius ut fugiat omnis. Autem nihil dignissimos deserunt eum. In adipisci ipsum
+natus saepe facere. Aspernatur velit autem sed. Rerum provident non incidunt id
+expedita aliquam non. Eum sit saepe autem nam aut voluptatem non et.
+
+<!--more-->
+
+Sequi et ut consequatur et incidunt expedita provident. Iste ipsa eaque qui.
+Totam vitae quasi nulla aut aliquam harum. Quibusdam et deserunt possimus
+dolores voluptate facilis corrupti vero.
+
+```
+
+Each post consits of a header and a body. In the header defined by the `---`, you have to make basic definitions concerning the blog post.   
+In the first line of the example the layout is specified. This should be `layout: post` for all blog post except you want to add a custom layout for a certain media type. In the second line the title of the blog post is specified. In the third line you have to add the date of publication which will be displayed on top of the blog post on the website. In the fourth and last line of the header you can add categories so your blog posts gets displayed at the categories site `/categories/<category>/`. The existing categories can be found in the `categories/` folder.  
+Finally, you can add `<!--more-->` in your text to indicate that the text till this delimiter should be used as a preview at the homepage.
+
+## Categories
+This theme supports using categories. If you want to add custom categories you need to add a `<your category name>.md` file to the `categories/` folder, where `<your category name>` denotes the name of the category you want to add.  
+Your `<your category name>.md` needs to contain the following lines:
+```
+---
+layout: category
+category: <your category name>
+permalink: /categories/<your category name>/
+---
+```
+The first line specifies that the layout of the rendered site is category. In the second line you have to specify the name of the category you want to add. And finally, you have to specify the link scheme to your category site.
+
+## Host your own blog
+The simplest way to host your own blog with the [Minimalist](https://trybnetic.github.io/minimalist/) theme is to fork [the repository](https://github.com/Trybnetic/minimalist/) and use the [gh-pages](https://pages.github.com/) functionality provided by [GitHub](https://github.com/).
 
 ## License
-
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+This jekyll theme is [licensed under the MIT license](https://github.com/Trybnetic/minimalist/blob/master/LICENSE.txt). Check the license on whether and how you are allowed to use, modify and distribute this theme.
