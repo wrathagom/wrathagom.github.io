@@ -2,7 +2,11 @@
 layout: post
 title:  "First Elastic Cluster with Terraform"
 date:   2022-12-11
-categories: elastic terraform programming
+category: Elastic
+tags:
+  - terraform
+  - Elastic Cloud
+  - How To
 comments: false
 ---
 
