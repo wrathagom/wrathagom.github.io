@@ -12,6 +12,8 @@ comments: false
 
 Full disclosure, this is actually were my Terraform journey began. I had a customer who was going to need to create monitoring clusters in many regions across multiple providers. I wanted a single Terraform script that could create all of the monitoring clusters, as well as a CCS (Cross Cluster Search) cluster to bring all of the monitoring data together.
 
+<!--more-->
+
 This Terraform configuration does exactly that, and it only has 5 more lines than the config we used to create a single cluster and monitoring cluster in my last post, [[Monitoring Cluster with Terraform]].
 
 It takes advantage of two, what I would consider to be advanced, Terraform arguements: The [for_each](https://developer.hashicorp.com/terraform/language/meta-arguments/for_each) meta-arguement and the [dynamic blocks](https://developer.hashicorp.com/terraform/language/expressions/dynamic-blocks).
