@@ -5,6 +5,7 @@
 layout: default
 title: Blog
 permalink: /blog/
+group: navigation
 ---
 {% for post in site.posts %}
   <div id="post-short">
