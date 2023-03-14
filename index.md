@@ -18,5 +18,8 @@ title: Blog
         {{ post.content }}
       {% endif %}
     </p>
+    {% for category in page.categories %}
+      #{{category}}
+    {% endfor %}
   </div>
 {% endfor %}
