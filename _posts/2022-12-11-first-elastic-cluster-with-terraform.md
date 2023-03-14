@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  First Elastic Cluster with Terraform
+title:  "First Elastic Cluster with Terraform"
 date:   2022-12-11
 categories: Elastic Terraform Programming
 comments: false
 ---
-
 
 For my day job with Elastic, I have had several customers deploying their clusters with Terraform. I have no experience using Terraform and so I thought it would be worth some investigation.
 
