@@ -12,6 +12,8 @@ comments: false
 
 This is a follow on post to [[First Elastic Cluster with Terraform]], it's best practice to monitor your Elasticsearch clusters with a dedicated monitoring cluster. I'm going to take the example we started with in my first Terraform post and add a monitoring cluster to it.
 
+<!--more-->
+
 Here's the script we ended with in the last post, plus everything we need to add a monitoring cluster.
 
 ```terraform
