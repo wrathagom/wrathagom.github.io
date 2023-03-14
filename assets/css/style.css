@@ -11,10 +11,9 @@ a:link, a:visited	{
 	color:#000
 }
 
-a:hover	{
-	border-bottom: 2px dashed darkred;
+a.active	{
+	color: darkred;
 }
-
 
 #main {
 	width: 50%;
