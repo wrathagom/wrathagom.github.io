@@ -10,10 +10,10 @@ title: Blog
     <a href="{{site.url}}{{site.baseurl}}{{post.url}}">
       <h3>{{post.title}}</h3>
     </a>
-    <i>posted on {{ post.date | date: "%-d %b %Y" }} with tags {% for category in post.categories %}#{{category}}{% endfor %}</i>
+    <i>posted on {{ post.date | date: "%-d %b %Y" }} with tags {% for category in post.categories %}#{{category}} {% endfor %}</i>
     <p>
       {% if post.excerpt %}
-        {{ post.excerpt }}
+        {{ post.excerpt }} <a href="{{site.url}}{{site.baseurl}}{{post.url}}">-=Read More=-</a>
       {% else %}
         {{ post.content }}
       {% endif %}
