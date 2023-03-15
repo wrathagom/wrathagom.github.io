@@ -72,6 +72,7 @@ a.active	{
 
 #content-left a:hover	{
 	text-decoration: none;
+	color: darkred;
 }
 
 #post-short a:link, #post-short a:visited	{
@@ -80,7 +81,8 @@ a.active	{
 }
 
 #post-short a:hover	{
-	text-decoration: underline;
+	text-decoration: none;
+	color: darkred;
 }
 
 #post-short h3, #post h2	{
@@ -105,7 +107,8 @@ a.active	{
 }
 
 #categories a:hover {
-	text-decoration: underline;
+	text-decoration: none;
+	color: darkred;
 }
 
 img {
