@@ -141,6 +141,13 @@ iframe {
     border-style:none;
 	margin: 0 auto;
     background-color: lightgrey;
+	padding: 10px;
+}
+
+blockquote {
+	background-color: lightgray;
+	border-left: 2px solid darkred;
+	padding-left: 10px;
 }
 
 @media screen and (max-width: 850px) {
