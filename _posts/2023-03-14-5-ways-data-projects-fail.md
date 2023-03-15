@@ -42,4 +42,4 @@ If it's not, then it's likely going to fail.
 
 ### Conclusion
 
-I've taken this and turned it into multiple pieces of content [here]({% post_url 2023-03-15-data-projects-fail-linkedin %}).
+I've taken this and turned it into multiple pieces of content [here]({% post_url 2023-03-15-data-projects-fail-linkedin.md %}).

@@ -11,7 +11,7 @@ tags:
 comments: false
 ---
 
-Here I go again, turning one idea into multiple pieces of content following Justin Welsh's concept.
+Here I go again, turning one idea into multiple pieces of content following Justin Welsh's concept. I like typing these out long form here first and then cutting it up into individual LinkedIn and Twitter posts.
 
 Here's the idea:
 
