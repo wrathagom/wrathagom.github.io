@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "7 Pieces of LinkedIn Content from one Idea"
+title:  "Seven Pieces of LinkedIn Content from one Idea"
 date:   2023-03-14
 category: LinkedIn
 tags:
