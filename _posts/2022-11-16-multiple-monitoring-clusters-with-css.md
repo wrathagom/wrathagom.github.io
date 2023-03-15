@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Multiple Monitoring Clusters with CCS"
+title:  "Multiple Monitoring Clusters with Cross Cluster Search"
 date:   2022-11-16
 category: Elastic
 tags:

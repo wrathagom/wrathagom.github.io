@@ -11,7 +11,9 @@ tags:
 comments: false
 ---
 
-It all started with a weather station, specifically I have the WS2000 from Ambient Weather. Well a recent update of the firmware on the base station allows for a push of weather data to a custom endpoint.
+It all started with a weather station, specifically I have the WS2000 from Ambient Weather. Well a recent update of the firmware on the base station allows for a push of weather data to a custom endpoint, but only to a local endpoint. So how then do I get it to a cloud hosted NodeRed?
+
+<!--more-->
 
 But that endpoint is very picky! As best I can tell:
  - It can only push to local endpoints
