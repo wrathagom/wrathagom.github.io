@@ -70,7 +70,7 @@ a:hover {
 	max-width: 50%;
 }
 
-#content-left a:link, #content-left a:visited	{
+#content-left p a:link, #content-left p a:visited	{
 	text-decoration: underline;
 	color:#000
 }
