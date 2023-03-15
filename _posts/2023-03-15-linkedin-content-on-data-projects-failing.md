@@ -13,6 +13,8 @@ comments: false
 
 Here I go again, turning one idea into multiple pieces of content following Justin Welsh's concept. I like typing these out long form here first and then cutting it up into individual LinkedIn and Twitter posts.
 
+<!--more-->
+
 Here's the idea:
 
 > Data Projects will fail without being value driven
