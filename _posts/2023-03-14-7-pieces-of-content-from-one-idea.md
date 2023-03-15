@@ -35,11 +35,21 @@ And I am going to turn it into:
 Here we go!
 
 ### A Story
-When you want a promotion at work do you:
+I am the king of good ideas.
 
-Ask your boss for it? Or sell them on it?
+I think so anyway, but does everyone else?
 
-Here's my story why everyone needs to know sales.
+I took a sales job to learn how to sell my ideas.
+
+Over the course of my career, I can't tell you how many times I felt like I had a great, impactful idea, which went unnoticed.
+
+Sometimes it was likely because the idea wasn't fully baked, wasn't a good fit, or the audience was wrong.
+
+But hindsight has shown me that I really wasn't good at selling my ideas. So, I took a sales job to learn how to sell my ideas better. Now I'm convinced that everyone should know at least a little something about sales.
+
+My main take away so far is that value sells! It sells products, services, promotions, etc.
+
+Learn how to talk and sell value!
 
 
 
@@ -48,7 +58,7 @@ Everyone needs to know sales!
 
 We're all trying to sell something.
 
-Here are 5 ways sales skills can help you in any roll:
+Here are 5 ways sales skills can help you in any role:
 
 1. Selling your boss on the value you bring to the table can lead to a promotion.
 2. Selling a recruiter on the value you could bring to a role could lead to a job.
@@ -60,7 +70,7 @@ Even if we aren't doing it intentionally today, we're all selling something pret
 
 Understanding sales and value can open many doors.
 
-Follow me for non-salesy sales content.
+Follow me for non-salesy sales content and let me know in the comments what you're trying to sell right now!
 
 ### A Teardown
 
@@ -91,7 +101,9 @@ What's the most valueable skill for someone in data to know?
 
 #1, they have to understand the business.
 
-Second to that they have to be able to sell their solution.
+#2, that they have to be able to sell their solution.
+
+And by that I don't mean selling it
 
 
 
@@ -110,7 +122,7 @@ Value is what sells, it is what garners usage. Selling value is the key to bette
 
 That's why I think everyone should know some sales!
 
-
+What's your secret for getting people to use your outputs?
 
 ### A Future Prediction
 

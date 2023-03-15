@@ -7,7 +7,6 @@ tags:
   - terraform
   - Elastic Cloud
   - How To
-  - WIP
 comments: false
 ---
 
