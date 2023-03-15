@@ -1,12 +1,13 @@
 ---
 layout: post
 title:  "Five Ways Data Projects Fail"
-date:   2023-03-14
+date:   2023-03-15
 category: Data
 tags:
   - Value
   - AI
   - Data
+  - WIP
 comments: false
 ---
 
