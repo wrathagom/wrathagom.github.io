@@ -12,6 +12,8 @@ comments: false
 
 If you're on LinkedIn, there's a good chance you've ran across one of [Justin Welsh](https://www.linkedin.com/in/justinwelsh/)'s posts. I've been a follower and subscriber of his for some time now. I have always liked his idea of being able to generate multiple posts from a single Idea.
 
+<!--more-->
+
 Here's his post:
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7041091044058267648" height="795" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
