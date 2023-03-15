@@ -1,3 +1,5 @@
+<!-- http://jovandeginste.github.io/2016/05/04/add-a-tag-cloud-to-my-jekyll-site.html -->
+
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign site_tags = site_tags | split: ',' %}
 
