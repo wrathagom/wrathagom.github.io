@@ -29,3 +29,16 @@
 	</div>
     </body>
 </html>
+
+<!-- https://remarkablemark.org/blog/2020/04/04/jekyll-heading-anchor-links/#:~:text=Jekyll%20heading%20links%201%20Prerequisites%20First%2C%20remove%20all,a%20%7B%20color%3A%20inherit%3B%20%7D%20%7D%20%7D%20 -->
+<script>
+  document
+    .querySelector('.post-content') // your selector for the post body
+    .querySelectorAll('h1,h2,h3,h4,h5,h6')
+    .forEach(function(heading) {
+      if (heading.id) {
+        heading.innerHTML =
+          '<a href="#' + heading.id + '">' + heading.innerText + '<\/a>';
+      }
+    });
+</script>
