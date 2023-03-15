@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "LinkedIn Content on Data Projects Failing"
-date:   2023-03-16
+date:   2023-03-15
 category: LinkedIn
 tags:
   - Content OS
