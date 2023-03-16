@@ -36,11 +36,30 @@ Once upon a time, there was an eager data team
 
 They used the latest tech, built with big data, and leveraged AI
 
-But the big bad Value Wolf blew their dashboards down
+But the big bad Wolf came and blew their dashboards down.
 
+Okay, I probably took the "story" portion of this one a bit too far...
 
+But if you've been in data you've seen data projects fail when they focus too much on technologies, data volumes, or "AI".
+
+My suggested alternate: focus on value.
+
+A conversation around value can help you chose the best technology, it can help you identify what data needs to be collected, and it can help you evaluate if an AI solution is appropriate.
+
+How many of your data conversations mention value?
 
 ### A Listicle
+Ever watched a data or software project fail?
+
+Value can be useful tool for understanding the failure.
+
+Here are 5 ways projects fail and what that means for their value:
+
+ - A Project can fail if it takes too long
+
+ We've all seen a data project take too long to get going or slip past it's due date. Some value is time sensitive to be delivered. Just like Time to Market is an important metric for products, making sure that your project is ready on time will ensure it can deliver it's fullest value.
+
+ - A project can fail if 
 
 ### A Teardown
 
