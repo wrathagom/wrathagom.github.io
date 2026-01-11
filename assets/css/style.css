@@ -127,6 +127,12 @@ em, i {
   color: var(--green);
 }
 
+ul, ol {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-bottom: 1rem;
+}
+
 /* Latest post on home */
 .latest-post {
   background-color: var(--surface0);

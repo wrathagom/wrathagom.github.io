@@ -1,0 +1,18 @@
+name: Scheduled Build
+
+on:
+  schedule:
+    # Runs at 6:00 AM UTC every day
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger GitHub Pages rebuild
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/${{ github.repository }}/pages/builds
