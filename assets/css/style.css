@@ -55,6 +55,17 @@ header {
   padding: 0.25rem 0;
 }
 
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  width: 0;
+  background: var(--peach);
+  z-index: 1000;
+  box-shadow: 0 0 8px rgba(250, 179, 135, 0.5);
+}
+
 nav {
   max-width: 700px;
   margin: 0 auto;
