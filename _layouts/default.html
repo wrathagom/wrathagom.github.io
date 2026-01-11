@@ -9,11 +9,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
 </head>
 <body>
   <header>
     <nav>
-      <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
+      <a href="{{ '/' | relative_url }}" class="site-title">
+        <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="{{ site.title }}" class="site-logo">
+      </a>
       <div class="nav-links">
         <a href="{{ '/' | relative_url }}">home</a>
         <a href="{{ '/blog' | relative_url }}">blog</a>

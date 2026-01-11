@@ -65,13 +65,17 @@ nav {
 }
 
 .site-title {
-  color: var(--mauve);
-  font-weight: 700;
+  display: flex;
+  align-items: center;
 }
 
 .site-title:hover {
-  color: var(--pink);
   text-decoration: none;
+}
+
+.site-logo {
+  height: 32px;
+  width: auto;
 }
 
 .nav-links {
