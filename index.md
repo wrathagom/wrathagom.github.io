@@ -5,9 +5,7 @@ title: Home
 
 # Hi, I'm Caleb
 
-Data strategist - from the shop floor, to the C-suite.
-
-I build tools for data engineering, analytics, and making information accessible.
+Data crunching, software developing, horse riding - Cyborg.
 
 ## Latest Post
 

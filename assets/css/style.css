@@ -13,6 +13,10 @@
   --pink: #f5c2e7;
   --green: #a6e3a1;
   --peach: #fab387;
+  --yellow: #f9e2af;
+  --teal: #94e2d5;
+  --sky: #89dceb;
+  --red: #f38ba8;
 }
 
 * {
@@ -92,16 +96,35 @@ main {
 }
 
 h1, h2, h3 {
-  color: var(--text);
   margin-bottom: 1rem;
 }
 
-h1 { font-size: 1.75rem; }
-h2 { font-size: 1.4rem; }
-h3 { font-size: 1.2rem; }
+h1 {
+  font-size: 1.75rem;
+  color: var(--mauve);
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: var(--pink);
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: var(--lavender);
+}
 
 p {
   margin-bottom: 1rem;
+}
+
+strong, b {
+  color: var(--peach);
+  font-weight: 700;
+}
+
+em, i {
+  color: var(--green);
 }
 
 /* Latest post on home */
@@ -110,6 +133,7 @@ p {
   padding: 1rem;
   border-radius: 8px;
   margin-bottom: 1rem;
+  border-left: 3px solid var(--teal);
 }
 
 .latest-post time {
@@ -135,6 +159,13 @@ p {
   margin-bottom: 1.5rem;
   padding-bottom: 1.5rem;
   border-bottom: 1px solid var(--surface0);
+  padding-left: 1rem;
+  border-left: 2px solid var(--surface1);
+  transition: border-left-color 0.2s ease;
+}
+
+.post-list li:hover {
+  border-left-color: var(--peach);
 }
 
 .post-list li:last-child {
@@ -182,6 +213,7 @@ p {
 code {
   font-family: 'JetBrains Mono', monospace;
   background-color: var(--surface0);
+  color: var(--yellow);
   padding: 0.2rem 0.4rem;
   border-radius: 4px;
   font-size: 0.9rem;
