@@ -3,9 +3,13 @@ layout: default
 title: Home
 ---
 
-# Hi, I'm Caleb
-
-Data crunching, software developing, horse riding - Cyborg.
+<div class="intro">
+  <img src="/assets/images/profile.jpg" alt="Caleb on horseback" class="profile-photo">
+  <div class="intro-text">
+    <h1>Hi, I'm Caleb</h1>
+    <p>Data crunching, software developing, horse riding - Cyborg.</p>
+  </div>
+</div>
 
 ## Latest Post
 

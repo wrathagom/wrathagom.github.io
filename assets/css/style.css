@@ -137,6 +137,31 @@ ul, ol {
   margin-bottom: 1rem;
 }
 
+/* Intro section */
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--mauve);
+}
+
+.intro-text h1 {
+  margin-bottom: 0.5rem;
+}
+
+.intro-text p {
+  margin-bottom: 0;
+  color: var(--subtext);
+}
+
 /* Latest post on home */
 .latest-post {
   background-color: var(--surface0);
@@ -189,6 +214,18 @@ ul, ol {
 
 .post-list h2 {
   margin: 0.25rem 0;
+}
+
+/* Category tags */
+.category-tag {
+  display: inline-block;
+  background-color: var(--surface1);
+  color: var(--teal);
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  margin-left: 0.5rem;
+  vertical-align: middle;
 }
 
 /* Post */

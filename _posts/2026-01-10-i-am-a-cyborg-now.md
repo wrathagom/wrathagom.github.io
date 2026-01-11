@@ -2,6 +2,7 @@
 layout: post
 title: I Am a Cyborg Now
 date: 2026-01-10
+category: Vibe Coding
 ---
 
 I am officially an *augmented* dev and data engineer. I've been vibe coding with Claude for several weeks now. I'm building several different apps simultaneously—some have hardware components, most are pure software. Today I started mixing in Codex.
