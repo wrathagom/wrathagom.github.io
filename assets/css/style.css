@@ -104,6 +104,28 @@ p {
   margin-bottom: 1rem;
 }
 
+/* Latest post on home */
+.latest-post {
+  background-color: var(--surface0);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.latest-post time {
+  color: var(--subtext);
+  font-size: 0.875rem;
+}
+
+.latest-post h3 {
+  margin: 0.5rem 0;
+}
+
+.latest-post p {
+  color: var(--subtext);
+  margin-bottom: 0;
+}
+
 /* Post list */
 .post-list {
   list-style: none;
@@ -185,4 +207,21 @@ footer {
   text-align: center;
   color: var(--subtext);
   font-size: 0.875rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.social-links a {
+  color: var(--subtext);
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: var(--mauve);
+  text-decoration: none;
 }
