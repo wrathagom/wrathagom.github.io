@@ -18,7 +18,7 @@ title: Home
 <article class="latest-post">
   <div class="post-meta">
     <time datetime="{{ latest_post.date | date_to_xmlschema }}">{{ latest_post.date | date: "%B %d, %Y" }}</time>
-    {% if latest_post.category %}<span class="category-tag">{{ latest_post.category }}</span>{% endif %}
+    {% if latest_post.category %}<a class="category-tag" href="{{ '/blog' | relative_url }}#category={{ latest_post.category | slugify }}">{{ latest_post.category }}</a>{% endif %}
   </div>
   <h3><a href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a></h3>
   <p>{{ latest_post.content | strip_html | truncate: 200 }}</p>

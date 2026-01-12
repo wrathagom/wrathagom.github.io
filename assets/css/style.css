@@ -392,6 +392,26 @@ footer {
   animation: wiggle 0.4s ease-in-out;
 }
 
+.social-links a[data-platform="github"]:hover {
+  color: var(--text);
+}
+
+.social-links a[data-platform="linkedin"]:hover {
+  color: var(--blue);
+}
+
+.social-links a[data-platform="twitter"]:hover {
+  color: var(--sky);
+}
+
+.social-links a[data-platform="email"]:hover {
+  color: var(--green);
+}
+
+.social-links a[data-platform="rss"]:hover {
+  color: var(--peach);
+}
+
 @keyframes wiggle {
   0%, 100% { transform: scale(1.15) rotate(5deg); }
   25% { transform: scale(1.15) rotate(-5deg); }

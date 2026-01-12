@@ -26,7 +26,7 @@ title: Blog
 {% for post in site.posts %}
   <li data-category="{{ post.category | slugify }}">
     <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
-    {% if post.category %}<span class="category-tag">{{ post.category }}</span>{% endif %}
+    {% if post.category %}<a class="category-tag" href="#category={{ post.category | slugify }}">{{ post.category }}</a>{% endif %}
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
     <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
   </li>

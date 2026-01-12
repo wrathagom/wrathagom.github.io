@@ -7,7 +7,7 @@ layout: default
     <h1>{{ page.title }}</h1>
     <div class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
-      {% if page.category %}<span class="category-tag">{{ page.category }}</span>{% endif %}
+      {% if page.category %}<a class="category-tag" href="{{ '/blog' | relative_url }}#category={{ page.category | slugify }}">{{ page.category }}</a>{% endif %}
     </div>
   </header>
   <div class="post-content">
