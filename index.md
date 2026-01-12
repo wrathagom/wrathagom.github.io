@@ -16,7 +16,10 @@ title: Home
 {% assign latest_post = site.posts.first %}
 {% if latest_post %}
 <article class="latest-post">
-  <time datetime="{{ latest_post.date | date_to_xmlschema }}">{{ latest_post.date | date: "%B %d, %Y" }}</time>
+  <div class="post-meta">
+    <time datetime="{{ latest_post.date | date_to_xmlschema }}">{{ latest_post.date | date: "%B %d, %Y" }}</time>
+    {% if latest_post.category %}<span class="category-tag">{{ latest_post.category }}</span>{% endif %}
+  </div>
   <h3><a href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a></h3>
   <p>{{ latest_post.content | strip_html | truncate: 200 }}</p>
 </article>
