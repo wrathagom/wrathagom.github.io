@@ -122,6 +122,8 @@ h1 {
 h2 {
   font-size: 1.4rem;
   color: var(--pink);
+  position: relative;
+  padding-bottom: 0.4rem;
 }
 
 h3 {
@@ -303,6 +305,17 @@ ul, ol {
   margin-top: 2rem;
 }
 
+h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 72px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--peach), var(--teal));
+  border-radius: 999px;
+}
+
 .post-content ul,
 .post-content ol {
   margin-bottom: 1rem;
@@ -321,6 +334,20 @@ code {
   padding: 0.2rem 0.4rem;
   border-radius: 4px;
   font-size: 0.9rem;
+}
+
+/* Quotes */
+blockquote {
+  background-color: var(--surface0);
+  border-left: 4px solid var(--teal);
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+  color: var(--subtext);
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
 }
 
 pre {
