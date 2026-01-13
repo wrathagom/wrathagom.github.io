@@ -3,9 +3,9 @@ title: Discord as my IDE
 category: Vibe Coding
 ---
 
-I know it might sound strange that I am calling Discord my IDE, but after this weekend, that's what it feels like. I took an app originally written by https://github.com/timoconnellaus/, updated it to work with the latest Claude Code CLI, and added support for Codex. Now I can hop into a channel that correlates with a folder/repo on my dev machine and start vibe coding away.
+I know it might sound strange that I am calling Discord my IDE, but after this weekend, that's what it feels like. I took an app originally written by [https://github.com/timoconnellaus/](https://github.com/timoconnellaus/), updated it to work with the latest Claude Code CLI, and added support for Codex. Now I can hop into a channel that correlates with a folder/repo on my dev machine and start vibe coding away.
 
-If you want to poke around, the repo is here: https://github.com/wrathagom/ai-discord-bot
+If you want to poke around, the repo is here: [https://github.com/wrathagom/ai-discord-bot](https://github.com/wrathagom/ai-discord-bot)
 
 Don't get me wrong, I'm still not purely in Discord, but I'm getting there. Matter of fact, I think I'm making it my mission to ideate and publish an app entirely from a Discord channel. Wouldn't that be something.
 
