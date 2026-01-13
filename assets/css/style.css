@@ -404,6 +404,10 @@ footer {
   color: var(--sky);
 }
 
+.social-links a[data-platform="instagram"]:hover {
+  color: var(--pink);
+}
+
 .social-links a[data-platform="email"]:hover {
   color: var(--green);
 }
