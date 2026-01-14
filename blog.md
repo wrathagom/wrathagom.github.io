@@ -29,6 +29,9 @@ title: Blog
     {% if post.category %}<a class="category-tag" href="#category={{ post.category | slugify }}">{{ post.category }}</a>{% endif %}
     <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
     <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+    <div class="read-more-row">
+      <a class="read-more-link" href="{{ post.url | relative_url }}">Read more &rarr;</a>
+    </div>
   </li>
 {% endfor %}
 </ul>
