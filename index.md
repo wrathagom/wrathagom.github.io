@@ -33,10 +33,10 @@ No posts yet.
 
 ## Top Projects
 
-- [ai-discord-bot](https://github.com/wrathagom/ai-discord-bot) - AI-powered Discord bot
-- [Big-Beautiful-Screens](https://github.com/wrathagom/Big-Beautiful-Screens) - Real-time display screens
-- [production-worthy-jupyter](https://github.com/wrathagom/production-worthy-jupyter) - Production-ready notebooks
-- [analytical-ecosystem](https://github.com/wrathagom/analytical-ecosystem) - Dockerized data engineering tools
+- **[AI Discord Bot](https://github.com/wrathagom/ai-discord-bot)** - Discord bot for vibe-coding with Claude and Codex 
+- **[Big Beautiful Screens](https://github.com/wrathagom/Big-Beautiful-Screens)** - Real-time, API-drive display screens
+- **[Analytical Ecosystem](https://github.com/wrathagom/analytical-ecosystem)** - Easy-start Dockerized ecosystems of data tools
+- **[Production Worthy Jupyter](https://github.com/wrathagom/production-worthy-jupyter)** - Robust, production-ready Jupyter Notebooks
 
 <div class="section-link">
   <a href="/projects">View all projects &rarr;</a>
