@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="intro">
-  <img src="/assets/images/profile.jpg" alt="Caleb on horseback" class="profile-photo">
+  <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Caleb on horseback" class="profile-photo">
   <div class="intro-text">
     <h1>Hi, I'm Caleb</h1>
     <p>Data crunching, software developing, horse riding - Cyborg.</p>
