@@ -1,4 +1,5 @@
 ---
+layout: post
 title: The Turbulence Of Our Times
 category: Psychology
 ---

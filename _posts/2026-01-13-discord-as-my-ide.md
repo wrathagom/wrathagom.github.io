@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Discord as my IDE
 category: Vibe Coding
 ---
