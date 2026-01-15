@@ -13,6 +13,7 @@
   <script src="https://cdn.counter.dev/script.js" data-id="af667829-e0c0-4f79-a071-b16af6abfd49" data-utcoffset="-5"></script>
 </head>
 <body>
+  <canvas id="dot-grid"></canvas>
   <header>
     <nav>
       <a href="{{ '/' | relative_url }}" class="site-title">
@@ -62,6 +63,74 @@
         }
       }
     });
+  </script>
+  <script>
+    // Dot grid background effect
+    (function() {
+      const canvas = document.getElementById('dot-grid');
+      const ctx = canvas.getContext('2d');
+
+      let mouseX = -1000;
+      let mouseY = -1000;
+      const radius = 150; // Area around cursor where dots appear
+      const dotSpacing = 24; // Space between dots
+      const dotSize = 1.5;
+      const dotColor = 'rgba(69, 71, 90, 0.8)'; // surface1 color, subtle
+
+      function resize() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      }
+
+      function draw() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // Calculate visible dot range around cursor
+        const startX = Math.floor((mouseX - radius) / dotSpacing) * dotSpacing;
+        const endX = Math.ceil((mouseX + radius) / dotSpacing) * dotSpacing;
+        const startY = Math.floor((mouseY - radius) / dotSpacing) * dotSpacing;
+        const endY = Math.ceil((mouseY + radius) / dotSpacing) * dotSpacing;
+
+        for (let x = startX; x <= endX; x += dotSpacing) {
+          for (let y = startY; y <= endY; y += dotSpacing) {
+            const dist = Math.sqrt((x - mouseX) ** 2 + (y - mouseY) ** 2);
+            if (dist < radius) {
+              // Fade dots based on distance from cursor
+              const opacity = 1 - (dist / radius);
+
+              // Draw glow behind each dot
+              ctx.beginPath();
+              ctx.arc(x, y, dotSize * 3, 0, Math.PI * 2);
+              ctx.fillStyle = `rgba(203, 166, 247, ${opacity * 0.08})`; // mauve glow
+              ctx.fill();
+
+              // Draw the dot
+              ctx.beginPath();
+              ctx.arc(x, y, dotSize, 0, Math.PI * 2);
+              ctx.fillStyle = `rgba(180, 190, 254, ${opacity * 0.6})`; // lavender dot
+              ctx.fill();
+            }
+          }
+        }
+
+        requestAnimationFrame(draw);
+      }
+
+      document.addEventListener('mousemove', (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+      });
+
+      document.addEventListener('mouseleave', () => {
+        mouseX = -1000;
+        mouseY = -1000;
+      });
+
+      window.addEventListener('resize', resize);
+
+      resize();
+      draw();
+    })();
   </script>
 </body>
 </html>
