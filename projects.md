@@ -10,4 +10,5 @@ title: Projects
 - **[Analytical Ecosystem](https://github.com/wrathagom/analytical-ecosystem)** - Dockerized ecosystems of data engineering, analysis, and science tools
 - **[Dev Machine Proxy](https://github.com/wrathagom/dev-machine-proxy)** - Website meant to be hosted on your dev machine for a quick overview, service discovery, and remote work.
 - **[Lame Data](https://github.com/wrathagom/lame-data)** - Equine locomotion data collection for detecting lameness in horses
+- **[Life Calendar](https://github.com/wrathagom/life-calendar)** - Visual life calendar in weeks ([LIVE](https://calebmkeller.com/life-calendar/))
 - **[Production Worthy Jupyter](https://github.com/wrathagom/production-worthy-jupyter)** - Robust, production-ready Jupyter Notebooks
