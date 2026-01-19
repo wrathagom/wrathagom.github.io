@@ -37,6 +37,7 @@ No posts yet.
 - **[Big Beautiful Screens](https://github.com/wrathagom/Big-Beautiful-Screens)** - Real-time, API-drive display screens
 - **[Analytical Ecosystem](https://github.com/wrathagom/analytical-ecosystem)** - Easy-start Dockerized ecosystems of data tools
 - **[Life Calendar](https://github.com/wrathagom/life-calendar)** - Visual life calendar in weeks ([LIVE](https://calebmkeller.com/life-calendar/))
+- **[Generative Art](https://github.com/wrathagom/generative-art)** - Creative coding experiments with generative art ([LIVE](https://calebmkeller.com/generative-art/))
 
 <div class="section-link">
   <a href="/projects">View all projects &rarr;</a>
