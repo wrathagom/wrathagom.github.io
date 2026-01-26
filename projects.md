@@ -6,7 +6,7 @@ title: Projects
 # Projects
 
 - **[AI Discord Bot](https://github.com/wrathagom/ai-discord-bot)** - AI-powered Discord bot for community assistance and automation
-- **[Big Beautiful Screens](https://github.com/wrathagom/Big-Beautiful-Screens)** - Real-time display screens with WebSocket updates, auto-layout, and admin dashboard
+- **[Big Beautiful Screens](https://github.com/wrathagom/Big-Beautiful-Screens)** - Real-time display screens with WebSocket updates, auto-layout, and admin dashboard ([LIVE](https://bigbeautifulscreens.com))
 - **[Analytical Ecosystem](https://github.com/wrathagom/analytical-ecosystem)** - Dockerized ecosystems of data engineering, analysis, and science tools
 - **[Dev Machine Proxy](https://github.com/wrathagom/dev-machine-proxy)** - Website meant to be hosted on your dev machine for a quick overview, service discovery, and remote work.
 - **[Generative Art](https://github.com/wrathagom/generative-art)** - Creative coding experiments with generative art ([LIVE](https://calebmkeller.com/generative-art/))

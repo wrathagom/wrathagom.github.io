@@ -34,7 +34,7 @@ No posts yet.
 ## Top Projects
 
 - **[AI Discord Bot](https://github.com/wrathagom/ai-discord-bot)** - Discord bot for vibe-coding with Claude and Codex
-- **[Big Beautiful Screens](https://github.com/wrathagom/Big-Beautiful-Screens)** - Real-time, API-drive display screens
+- **[Big Beautiful Screens](https://github.com/wrathagom/Big-Beautiful-Screens)** - Real-time, API-drive display screens ([LIVE](https://bigbeautifulscreens.com))
 - **[Analytical Ecosystem](https://github.com/wrathagom/analytical-ecosystem)** - Easy-start Dockerized ecosystems of data tools
 - **[Life Calendar](https://github.com/wrathagom/life-calendar)** - Visual life calendar in weeks ([LIVE](https://calebmkeller.com/life-calendar/))
 - **[Generative Art](https://github.com/wrathagom/generative-art)** - Creative coding experiments with generative art ([LIVE](https://calebmkeller.com/generative-art/))
