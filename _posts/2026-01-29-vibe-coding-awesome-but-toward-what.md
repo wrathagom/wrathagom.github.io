@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vibe-Coding: Awesome, But Toward What?
+title: "Vibe-Coding: Awesome, But Toward What?"
 category: Vibe Coding
 ---
 
