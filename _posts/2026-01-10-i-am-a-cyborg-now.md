@@ -5,9 +5,13 @@ date: 2026-01-10
 category: Vibe Coding
 ---
 
-I am officially an *augmented* dev and data engineer. I've been vibe coding with Claude for several weeks now. I'm building several different apps simultaneously—some have hardware components, most are pure software. Today I started mixing in Codex.
+I am officially an *augmented* dev, data analysts, data engineer, even a... software engineer. 
+
+I've been vibe coding with Claude for several weeks now. I'm building several different apps simultaneously—some have hardware components, most are pure software. Today I started mixing in Codex.
 
 I've gotten a [Discord bot]({% post_url 2026-01-13-discord-as-my-ide %}) (someone else wrote the original) up and running, then tweaked it to do a bunch more things. Now I can vibe code from my phone no matter where I am. I can drop it a command and it will create and spin up an app that I can test remotely thanks to Netbird. My end goal is to go from idea to product fully within a Discord channel. And I'm not just dreaming—it's actually working.
+
+## You Spin Me Right Round Baby, Right Round
 
 I still can't believe how fast things have changed and are still changing. We're in the industrial revolution of software. It's going to become a commodity, cheap enough that anyone can make it. The barrier to entry is collapsing in real time.
 

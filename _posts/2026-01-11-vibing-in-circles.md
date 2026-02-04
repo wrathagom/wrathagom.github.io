@@ -11,9 +11,9 @@ But the flip side is that it's one more tool to get distracted with. It allows m
 
 I want it to be a tool that changes my life—lets me be more productive, more successful. But what if it just steals all my time away in the name of "moving faster"?
 
-In the content creation world, it used to be a big thing to talk about being a creator, not a consumer. The reference being all the lurkers who scroll and scroll and scroll social media without ever trying to say something of their own. Used that way, social media becomes an anchor that holds you back.
+In the content creation world, it used to be a big thing to talk about *"be a creator, not a consumer"*. The reference being all the lurkers who scroll and scroll and scroll social media without ever trying to say something of their own. Used that way, social media becomes an anchor that holds you back.
 
-There's a strong similarity with AI happening right now. You can spend all day prompting, iterating, exploring—and feel like you're being productive because you're *doing* something. But are you shipping? Are you finishing? Or are you just vibing in circles?
+There's a strong similarity with what is happening with AI right now. You can spend all day prompting, iterating, exploring—and feel like you're being productive because you're *doing* something. But are you shipping? Are you finishing? Or are you just vibing in circles?
 
 I don't have the answer yet. I'm watching myself closely. The potential is real, but so is the trap.
 
