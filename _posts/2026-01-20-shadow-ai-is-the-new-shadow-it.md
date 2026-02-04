@@ -6,7 +6,7 @@ category: Work
 
 I was Shadow IT.
 
-It started with a Microsoft Access tool for tracking yields in an advanced manufacturing area. Yield tracking tools existed, but they didn't fit this division's process. Getting new software approved and built would take years. I built a solution in a few weeks. Today I could vibe-code it in an hour.
+It started with a Microsoft Access tool for tracking yields in an advanced manufacturing area. Yield tracking tools existed, but they didn't fit this division's process. Getting new software approved and built would take years. I built a solution in a few weeks. Today I could [vibe-code]({% post_url 2026-01-10-i-am-a-cyborg-now %}) it in an hour.
 
 But my shadow IT didn't stop there. I got tired of waiting for data engineers to create a reporting server from change data capture SQL data. So I wrote it myself, in a night, running with Jupyter and Airflow. It worked and I got there first.
 
@@ -35,3 +35,5 @@ If no one can answer those questions, the business is exposed—whether the tool
 This doesn't require a massive rebuild. It requires making the invisible visible, separating experiments from production, and putting boring structure around fast innovation. Not to slow it down. To *enable* it.
 
 The people building shadow AI aren't the problem. They're showing you where the value is. The question is whether leadership will meet them there—or pretend it isn't happening until something breaks.
+
+*Related: [Speed]({% post_url 2026-01-19-speed %}) — why enterprises need to enable AI, not ban it.*

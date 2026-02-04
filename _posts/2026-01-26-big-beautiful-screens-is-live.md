@@ -8,7 +8,7 @@ I finished building it weeks ago. The app worked, tests passed, screens updated 
 
 And then I just... didn't ship it.
 
-There's something about those last few connections—the billing integration, the production environment, the "okay this is real now" moment—that makes you drag your feet. Or at least it made me drag mine. But today, [Big Beautiful Screens](https://bigbeautifulscreens.com) is live. Free to sign up, no credit card required.
+There's something about those last few connections—the billing integration, the production environment, the "okay this is real now" moment—that makes you drag your feet. Or at least it made me drag mine. (I've [written before]({% post_url 2026-01-11-vibing-in-circles %}) about the trap of starting without finishing.) But today, [Big Beautiful Screens](https://bigbeautifulscreens.com) is live. Free to sign up, no credit card required.
 
 ## What Is It?
 
@@ -27,7 +27,7 @@ If you've vibe-coded anything in the last year, this stack probably looks famili
 
 ## Vibe Coding Didn't Eliminate the Work
 
-I used Claude and Codex extensively on this project. Sometimes I'd have one review the other's code. It felt like having two junior devs who never sleep and never complain—but also never remember what they told you yesterday.
+I used Claude and Codex extensively on this project, building on what I described in [I Am a Cyborg Now]({% post_url 2026-01-10-i-am-a-cyborg-now %}). Sometimes I'd have one review the other's code. It felt like having two junior devs who never sleep and never complain—but also never remember what they told you yesterday.
 
 The acceleration was real. Features that would have taken me days took hours. But here's my primary vibe-coding takeaway: *the gnarly parts are still gnarly*.
 

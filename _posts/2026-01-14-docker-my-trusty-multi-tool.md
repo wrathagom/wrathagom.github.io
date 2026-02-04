@@ -24,7 +24,7 @@ Docker provides instant access to nearly any piece of software without the commi
 
 ## It's Still relevant
 
-When I'm vibe coding with Claude, Docker is often what makes the magic possible. Claude writes the code (and the compose), I (or it) spin up the services, and within minutes we have something running. That speed matters. Ideas are fragile — they need to be captured and tested before they evaporate. Docker is a big piece of what enables this for me.
+When I'm [vibe coding with Claude]({% post_url 2026-01-10-i-am-a-cyborg-now %}), Docker is often what makes the magic possible. Claude writes the code (and the compose), I (or it) spin up the services, and within minutes we have something running. That speed matters. Ideas are fragile — they need to be captured and tested before they evaporate. Docker is a big piece of what enables this for me.
 
 ## Always There
 

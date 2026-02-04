@@ -34,7 +34,7 @@ That's harder to automate away. Harder, but not impossible. I'm watching this sp
 
 ## Software Gets Cheap
 
-When anyone can spin up an app in minutes instead of months, what happens to the price of software? It falls. Hard.
+When anyone can [spin up an app in minutes]({% post_url 2026-01-26-big-beautiful-screens-is-live %}) instead of months, what happens to the price of software? It falls. Hard.
 
 We're entering an era of commodity software. The value won't be in the code — it will be in the data, the integrations, the trust, the brand. Writing software will be like writing a document: everyone can do it, so doing it isn't special anymore. What you *do* with it is what matters.
 
@@ -45,3 +45,5 @@ Every time I hear someone dismiss AI-generated code, I think: you're judging tom
 I'm not saying we're there yet. I'm saying we're getting there faster than most people realize. And by the time the skeptics come around, the world will have already moved on without them.
 
 The end of software as we know it isn't a threat. It's exciting!
+
+*Related: [Shadow AI Is the New Shadow IT]({% post_url 2026-01-20-shadow-ai-is-the-new-shadow-it %}) explores what this shift means for enterprises.*

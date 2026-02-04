@@ -37,4 +37,4 @@ I have a few problems, mostly with my workflow, that I still need to sort out.
 - I am already starting to get a fair number of channels. I have archived a few that were moved, consolidated, etc., but what do I do when I reach 100+ projects — and therefore 100+ channels? I can organize those to an extent, but still.
 - What happens when my dev machine isn't enough? My dev machine, however beefy, will eventually be tapped out. Am I willing to give the agent control of a hosting provider to spin up new servers, connect to them, code on them, etc.?
 
-This entire journey of mine only began a few weeks ago. But I am so excited for where it is headed!!!
+This entire journey of mine [only began a few weeks ago]({% post_url 2026-01-10-i-am-a-cyborg-now %}). But I am so excited for where it is headed!!!

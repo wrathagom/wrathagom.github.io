@@ -8,11 +8,11 @@ Vibe-coding is awesome. There's no  doubt left in my mind. There are plenty of n
 
 The tension for me is simple: vibe-coding is exhilarating, but I'm still figuring out what I want to aim it at.
 
-When I say vibe-coding is awesome, I'm saying it mostly from a hobbyist's perspective. I'm working with Claude on a book idea that's been rattling around in my head for years. Together we're vibing a video game into existence. I launched a SaaS from start to finish. All of these things have been a lot of fun. And yet—it hasn't saved me any time or made me any money.
+When I say vibe-coding is awesome, I'm saying it mostly from a hobbyist's perspective. I'm working with Claude on a book idea that's been rattling around in my head for years. Together we're vibing a video game into existence. I [launched a SaaS]({% post_url 2026-01-26-big-beautiful-screens-is-live %}) from start to finish. All of these things have been a lot of fun. And yet—it hasn't saved me any time or made me any money.
 
 Not yet, anyway. Maybe not ever? I can't tell. But it has made me start to think of what the true value is.
 
-I can't tell if I've fallen into a trap of shiny new tools, or if I just haven't pointed them in the right direction yet, or if I'm still too caught up in the excitement to see clearly. All three feel possible.
+I can't tell if I've fallen into a trap of shiny new tools, or if I just haven't pointed them in the right direction yet, or if I'm still too caught up in the excitement to see clearly. All three feel possible. (I first noticed this pattern in [Vibing in Circles]({% post_url 2026-01-11-vibing-in-circles %}).)
 
 ## Beyond Code
 

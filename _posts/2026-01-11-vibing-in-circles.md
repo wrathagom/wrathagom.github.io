@@ -16,3 +16,5 @@ In the content creation world, it used to be a big thing to talk about being a c
 There's a strong similarity with AI happening right now. You can spend all day prompting, iterating, exploring—and feel like you're being productive because you're *doing* something. But are you shipping? Are you finishing? Or are you just vibing in circles?
 
 I don't have the answer yet. I'm watching myself closely. The potential is real, but so is the trap.
+
+*Update: I revisited this question in [Vibe-Coding: Awesome, But Toward What?]({% post_url 2026-01-29-vibe-coding-awesome-but-toward-what %})*

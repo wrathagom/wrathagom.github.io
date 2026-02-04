@@ -40,6 +40,8 @@ The Matrix called, it wants its aesthetic back. Green characters falling down th
 
 ## What's Next?
 
-I'm not sure where this project goes from here. Maybe more art styles, maybe customization options, maybe something entirely different. That's the beauty of vibe coding — I don't have to know. I just have to keep vibing.
+I'm not sure where this project goes from here. Maybe more art styles, maybe customization options, maybe something entirely different. That's the beauty of [vibe coding]({% post_url 2026-01-10-i-am-a-cyborg-now %}) — I don't have to know. I just have to keep vibing.
 
 If you have ideas for new styles or want to contribute, the repo is open. Or just play around with it at [calebmkeller.com/generative-art](https://calebmkeller.com/generative-art) and see what you get.
+
+*Other vibe-coded projects: [Life Calendar]({% post_url 2026-01-13-life-calendar %}) and [Big Beautiful Screens]({% post_url 2026-01-26-big-beautiful-screens-is-live %}).*

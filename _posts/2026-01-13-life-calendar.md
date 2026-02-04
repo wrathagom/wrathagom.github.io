@@ -22,4 +22,6 @@ Features so far include several developer-oriented themes â€” Gruvbox, anyone? â
 
 ## Future
 
-Where am I going to take it? Well, I don't really know, but you can bet I'm going to vibe code it in my [Discord bot](https://github.com/wrathagom/ai-discord-bot)! Have any suggestions? Feel free to create an issue on the repo, or reach out on one of my socials.
+Where am I going to take it? Well, I don't really know, but you can bet I'm going to vibe code it in my [Discord bot]({% post_url 2026-01-13-discord-as-my-ide %})! Have any suggestions? Feel free to create an issue on the repo, or reach out on one of my socials.
+
+*Check out my other vibe-coded projects: [Generative Art]({% post_url 2026-01-18-vibing-with-generative-art %}) and [Big Beautiful Screens]({% post_url 2026-01-26-big-beautiful-screens-is-live %}).*
